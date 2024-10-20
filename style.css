@@ -77,7 +77,8 @@
     margin-top: 80px;
   }
 
-  .hroo::after{
+  .hero::after{
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
