@@ -203,6 +203,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
   }
 
   .courses-title{    
@@ -210,6 +211,7 @@
     place-items: center;
     font-family: var(--font-family-heading);
     font-weight: 400;
+    font-size: 32px;
     color: var(--color-white);
     margin: 0;
   }
@@ -223,6 +225,7 @@
 
   .courses-cards-item{
     background-color: var(--color-accent-yellow);
+    box-shadow: 4px 4px 0px var(--color-accent-red);
     display: flex;
     justify-content: start;
     align-items: center;
@@ -267,11 +270,13 @@
   .card-text{
     margin: 0;
     width: auto;
+    color: var(--color-black);
     /* flex-grow: 1; */
   }
 
   .card-item-more{
     text-align: end;
+    color: var(--color-accent-red);
   }
 
   .courses-button-container{
