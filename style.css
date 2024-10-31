@@ -248,7 +248,17 @@
     height: 150px;
     background-image: url(./img/live.png);
     background-size: 250px 150px;
+    position: relative;
+  }
 
+  .card-title-container::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-course-overlay);
   }
   
   .card-title{
@@ -257,6 +267,12 @@
     height: 150px;
     text-align: center;
     line-height: 150px;
+    font-size: 32px;
+    position: relative;
+    z-index: 10;
+    font-family: var(--font-family-heading);
+    font-weight: 400;
+    letter-spacing: 0.05em;
   }
 
   .card-text-container{
@@ -280,13 +296,14 @@
   }
 
   .courses-button-container{
-    margin-top: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 800px;
     height: 60px;
     gap: 10px;
+    background-color: var(--color-accent-red);
+    box-shadow: 4px 4px 0px var(--color-accent-yellow);
   }
 
   .courses-button{
