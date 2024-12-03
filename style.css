@@ -486,3 +486,26 @@
       height: 78px;
     }
   }
+
+  /* Footer */
+  .footer{
+    margin: 0;
+    padding: 60px 0px;
+    background-color: var(--color-background-black);
+    color: var(--color-white);
+  }
+
+  .footer-text{
+    margin: 0;
+    text-align: center;
+  }
+
+  @media (max-width:750px){
+    .footer{
+      padding: 40px 0;
+    }
+
+    .footer-text{
+      font-size: 12px;
+    }
+  }
