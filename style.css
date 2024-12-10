@@ -65,7 +65,6 @@
     height: 100%;
   }
 
-
   @media (max-width:750px){
     .button{
       height: 40px;
@@ -82,7 +81,6 @@
     }
 
   }
-
 
   /* header */
   .header{
@@ -241,8 +239,6 @@
     width: 100%;
   }
 
-
-
   @media (max-width: 750px){
     .about{
       padding: 40px 0;
@@ -391,7 +387,6 @@
     padding: 80px 0;
     display: flex;
     justify-content: center;
-    color: var(--color-black);
     background-color: var(--color-accent-yellow);
   }
 
@@ -407,7 +402,6 @@
   .signup-title{
     margin: 0;
     text-align: center;
-    color: var(--color-black);
     font-family: var(--font-family-heading);
     font-size: 32px;
     letter-spacing: 0.02em;
@@ -434,17 +428,17 @@
     font-size: 20px;
   }
 
-  .form-input-container textarea{
-    height: 102px;
-  }
-
   .form-input{
     padding: 10px;
     border: 1px solid var(--color-form-border-red);
     border-radius: 8px;
     font-size: 16px;
-    color: var(--color-form-placeholder-gray);
+    color: var(--color-black);
     background-color: var(--color-form-background-yellow);
+  }
+
+  .form-input::placeholder{
+    color: var(--color-form-placeholder-gray);
   }
 
   .submit{
@@ -467,8 +461,11 @@
       padding: 0 20px;
     }
 
+    .signup-title{
+      font-size: 24px;
+    }
+
     .form-input-container{
-      display: grid;
       grid-template-columns: 1fr;
       row-gap: 10px;
     }  
@@ -480,10 +477,6 @@
     .form-input{
       padding: 8px;
       font-size: 12px;
-    }
-
-    .form-input-container textarea{
-      height: 78px;
     }
   }
 
@@ -503,9 +496,5 @@
   @media (max-width:750px){
     .footer{
       padding: 40px 0;
-    }
-
-    .footer-text{
-      font-size: 12px;
     }
   }
