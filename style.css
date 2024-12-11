@@ -34,6 +34,14 @@
     height: 100%;
   }
 
+  .container{
+    padding: 0 40px;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .button{
     display: flex;
     justify-content: center;
@@ -195,11 +203,6 @@
   }
 
   .about-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 800px;
-    padding: 0 40px;
     gap: 40px;
   }
 
@@ -268,11 +271,6 @@
   }
 
   .courses-container{
-    padding: 0 40px;
-    max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 40px;
   }
 
@@ -391,11 +389,6 @@
   }
 
   .signup-container{
-    max-width: 800px;
-    padding: 0 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     gap: 40px;
   }
 
