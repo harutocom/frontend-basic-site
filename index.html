@@ -31,7 +31,7 @@
     </section>
 
     <section class="about">
-        <div class="about-container">
+        <div class="container about-container">
             <h2 class="about-title">
                 What is 
                 <span class="about-title-accent-red">Grand</span> 
@@ -55,7 +55,7 @@
     </section>
 
     <section class="courses">
-        <div class="courses-container">
+        <div class="container courses-container">
             <h2 class="courses-title">Courses</h2>
             <div class="courses-cards">
                 <a class="card-item-container" href="#">
@@ -112,12 +112,49 @@
                     </div>
                 </a>
             </div>
-            <a class="courses-button" href="">
-                <div class="courses-button-text">すべてのコースを見る</div>
-                <div class="courses-button-icon">
+            <a class="courses-button button" href="">
+                <div class="courses-button-text button-text">すべてのコースを見る</div>
+                <div class="courses-button-icon button-icon">
                     <img class="courses-button-icon-image" src="./img/arrow-right.svg" alt="">
                 </div>
             </a>
+        </div>
+    </section>
+
+    <section class="signup">
+        <div class="container signup-container">
+            <h2 class="signup-title">Let’s Try!</h2>
+            <p class="signup-text">
+                Grand Playersでは、ご利用登録いただけた方に対し、３レッスン分の無料枠をプレゼントいたします！
+                <br>
+                今すぐレッスンを始めて、”Grand”なプレイヤーを目指しましょう！
+                <br>
+                お申し込みは下記フォームからどうぞ！
+            </p>
+            <form class="form" action="">
+                <div class="form-input-container">
+                    <label class="form-label" for="name">お名前</label>
+                    <input class="form-input" type="text" id="name" placeholder="エドワード ヴァン 太郎">
+                    <label class="form-label" for="address">メールアドレス</label>
+                    <input class="form-input" id="address" type="text" placeholder="grand.players@example.com">
+                    <label class="form-label" for="year">ギター歴 (年)</label>
+                    <input class="form-input" id="year" type="number" min="0" placeholder="3">
+                    <label class="form-label" for="texst">意気込みをどうぞ！</label>
+                    <textarea class="form-input" name="" id="texst" placeholder="イカすギターソロをかましてモテた～い！" rows="5"></textarea>
+                </div>
+                <button class="submit button" href="">
+                    <div class="submit-text button-text">送信する</div>
+                    <div class="button-icon">
+                        <img class="button-icon-image" src="./img/arrow-right.svg" alt="">
+                    </div>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer-text">
+            &copy; 2023 GrandPlayers
         </div>
     </section>
     
